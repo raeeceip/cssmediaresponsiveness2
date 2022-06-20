@@ -1,0 +1,330 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: hsl(192, 100%, 9%);
+}
+
+.flex-container {
+    display: flex;
+}
+
+button.Get-started-for-free {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 20px 65px;
+    border-radius: 50px;
+    border: none;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button.Get-started-for-free:hover {
+    background-color: hsl(322, 100%, 72%);
+}
+
+/* end of general */
+
+
+
+/* top section */
+.top-section{
+    background-image: url(/imgs/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+
+}
+
+.top-div{
+    padding: 5%;
+}
+
+button.try-it-free{
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    position: relative;
+    float: right;
+    padding: 12px 52px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+    box-shadow: 0px 0px 5px rgba(49, 49, 49, 0.233);
+}
+
+button.try-it-free:hover {
+    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.233);
+
+}
+
+/* flex div in top section */
+
+.flex-top img{
+    width: 54%;
+    height:auto;
+    margin:auto;
+}
+.flex-top {
+    margin: 55px 0;
+}
+
+.grid-top-text {
+    display: grid;
+    padding-right: 6%;
+    align-content: center;
+
+}
+
+.grid-top-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+    margin-bottom: 30px
+}
+
+.grid-top-text p {
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+    box-sizing: border-box;
+    margin-bottom: 30px
+}
+
+/* end of flex div in top section */
+/* end of top section */
+
+
+/* middle section */
+.middle-section{
+    padding: 10% 5% 20% 5%;
+}
+
+.middle-section img {
+    width: 100%;
+}
+.middle-section .img {
+    width: 100%;
+}
+
+.middle-section .flex-mid {
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.192);
+    padding: 50px 30px 80px 110px;
+    overflow: auto;
+    margin-bottom: 40px;
+}
+
+.grid-mid-text {
+    display: grid;
+    align-content: center;
+
+}
+
+.grid-mid-text h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 15px
+}
+
+.grid-mid-text p {
+    color: hsl(0, 1%, 51%);
+    font-weight: 500;
+}
+
+
+/* grow together and your users */
+
+.grid-mid-top-text,
+.grid-mid-bottom-text {
+    padding-right: 150px;
+}
+
+/* flowing conversatins */
+
+.flowing-conversations .img {
+    padding-right: 140px;
+}
+
+/* end of middle section */
+
+/* bottom section */
+
+.bottom-section{
+    background-color: hsl(192, 100%, 9%);
+    padding: 0 5%;
+}
+
+.ready-to-build {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(49, 49, 49, 0.192);
+    width:50%;
+    text-align: center;
+    padding: 5%;
+    position: relative;
+    bottom: 10rem;
+    margin:auto;
+}
+
+.ready-to-build h1 {
+    margin-bottom: 30px;
+}
+
+.ready-to-build button {
+    box-shadow: 0px 5px 10px rgba(49, 49, 49, 0.205);
+    font-size: 16px;
+}
+
+.footer-logo {
+    width: 17%;
+    height: auto;
+    padding: 1% 0;
+    padding: 0px 7%;
+    margin-bottom: 30px;
+    position: relative;
+    bottom: 5rem;
+}
+
+.bottom-texts{
+    padding: 0px 7%;
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+    position: relative;
+    bottom: 5rem;
+}
+
+.lpe{
+    flex: .9;
+}
+
+.bottom-links{
+    flex: .4;
+}
+.socials {
+    flex: .4 ;
+}
+
+.bottom-links span{
+    display: block;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 90%;
+}
+
+td {
+    vertical-align: top;
+    padding-right: 25px;
+    border-bottom: 20px solid transparent;
+}
+
+.location-icon img{
+    margin-top: 6px;
+}
+
+.copyright {
+    font-size: 11px;
+    text-align: right;
+    position: relative;
+    color: #fff;
+    bottom: 122px;
+    right: 86px;
+    }
+
+
+/* responsive */
+
+@media screen and (max-width: 775px){
+    .logo-div img {
+    width: 33%;
+    }
+
+    button.try-it-free {
+        padding: 10px 35px;
+    }
+
+    .flex-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .grid-top-text {
+        padding-bottom: 43px;
+        margin-bottom: 25px;
+    }
+
+    .grid-top-text h1 {
+        font-size: 31px;
+    }
+
+    .flex-top img{
+        width: 90%;
+    }
+
+    .grow-together, .your-users {
+        flex-direction: column-reverse;
+    }
+
+    .middle-section {
+        padding: 10% 5% 50% 5%;
+    }
+
+    .grid-mid-text h1 {
+        font-size: 22px;
+    }
+    .middle-section .flex-mid {
+        padding: 60px 35px;
+    }
+
+    .grid-mid-top-text,
+    .grid-mid-mid-text,
+    .grid-mid-bottom-text {
+        padding: 15% 0 0 0;
+    }
+
+    .flex-container .img{
+        padding-right: unset;
+    }
+
+    .ready-to-build {
+        width: unset;
+        font-size: 15px;
+        padding: 13% 5%;
+        bottom: 8rem;
+    }
+/*
+    .ready-to-build button{
+    } */
+    .footer-logo {
+        width: 175px;
+        padding: unset;
+    }
+
+    .bottom-texts {
+        padding: unset;
+        flex-direction: column;
+    }
+
+    td {
+        padding-right: 17px;
+    }
+
+    .lpe, .bottom-links.two {
+        margin-bottom: 30px;
+    }
+
+    .socials {
+        text-align: center;
+    }
+
+    .copyright {
+        text-align: center;
+        bottom: 68px;
+        right: unset;
+    }
+}
